@@ -1,0 +1,36 @@
+---
+import Layout from '../layouts/Layout.astro';
+import data from '../../public/data.json';
+import '../../assets/scss/astro-ecommerce.scss';
+import CardCategory from '../components/products/cardCategory';
+import Navbar from '../components/navbar';
+import Footer from '../components/footer';
+---
+
+<Layout title="Landing Page">
+	<main>
+    <Navbar />
+    <div class="container mt-5">
+      <div class="row mb-5">
+        <div class="d-block text-center mb-5">
+          <h3>What Are You Looking For Today? Choose a Category</h3>
+          <a href="https://collshp.com/trustquickhub" style="text-decoration: underline;">Or See All Products</a>
+        </div>
+        {data.shopee_categories.map(category => 
+          <div class="col-md-6 col-lg-3 mb-4">
+            <CardCategory
+              thumb_src = {category.thumb_src}
+              title = {category.title}
+              link={category.link}
+            />
+          </div>
+        )}
+      </div>
+
+      <div class="mb-5">
+        <Footer />
+      </div>
+    </div>
+  </main>
+
+</Layout>

@@ -1,14 +1,16 @@
 interface Props {
-  featuresDetails: Map<string,string>
+  details: {
+    [key: string]: string;
+  };
 }
 
-export default function ProductAccordion({
-  featuresDetails
-}: Props) {
+export default function ProductAccordion(
+  { details }: Props
+) {
 
   const prodFeatures = [];
 
-  Object.entries(featuresDetails).map(([title,value]) => {    
+  Object.entries(details).map(([title,value]) => {    
     prodFeatures.push(
       <div className="col-12">
         <div className="d-flex mb-4">
