@@ -1,41 +1,10 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import data from '../../public/data.json';
+import data from '../data/data.json';
 import '../../assets/scss/astro-ecommerce.scss';
 import Navbar from '../components/navbar';
 import Footer from '../components/footer';
 import CardMarketplace from '../components/products/cardMarketplace';
-
-let cartItems = [];
-data.shoppingCart.map(id => 
-  data.products.filter(x => x.id == id).map(x => cartItems.push(x))
-)
-let cartItems2 = [];
-data.shoppingCart2.map(id => 
-  data.products.filter(x => x.id == id).map(x => cartItems2.push(x))
-)
-
-let orderProducts = [];
-
-data.orders[0].products.forEach(productDetails => {
-  data.products.forEach(product => {
-    if (product.id == productDetails.id) {
-      orderProducts.push(product);
-    }
-  });
-})
-
-let orderHistoryProducts = new Set();
-
-data.orders.forEach((order) => {
-  order.products.forEach(productDetails => {
-    data.products.forEach(product => {
-      if (product.id == productDetails.id) {
-        orderHistoryProducts.add(product);
-      }
-    });
-  })
-})
 
 ---
 
@@ -49,7 +18,7 @@ data.orders.forEach((order) => {
   document.getElementById('heart1').addEventListener("click", toggleHeart);
 </script>
 
-<Layout title="Astro Ecommerce">
+<Layout title="Trust Quick Hub">
 	<main>
     <Navbar />
     <div class="container mt-5">
