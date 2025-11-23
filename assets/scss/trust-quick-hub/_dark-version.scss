@@ -68,20 +68,6 @@
     }
   }
 
-  .fixed-plugin {
-    .btn {
-      &.bg-gradient-dark,
-      &.btn-outline-dark {
-        color: $white !important;
-        border: 1px solid $white !important;
-      }
-      &.active {
-        background: $white !important;
-        color: $h-color !important;
-      }
-    }
-  }
-
   .bg-gradient-dark {
     background-image: linear-gradient(195deg, $dark-gradient-dark, $dark-gradient-state-dark);
   }
