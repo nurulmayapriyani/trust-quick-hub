@@ -16,7 +16,7 @@
       "trust": {
         "images": 
         {
-          "src": "/public/images/trust.png",
+          "src": "/images/trust.png",
           "alt": "trust"
         }
       }
@@ -25,7 +25,7 @@
       "quick": {
         "images": 
         {
-          "src": "/public/images/quick.png",
+          "src": "/images/quick.png",
           "alt": "quick"
         }
       }
@@ -34,7 +34,7 @@
       "hub": {
         "images": 
         {
-          "src": "/public/images/hub.png",
+          "src": "/images/hub.png",
           "alt": "hub"
         }
       }
