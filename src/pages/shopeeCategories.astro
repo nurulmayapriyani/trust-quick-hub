@@ -2,7 +2,7 @@
 import Layout from '../layouts/Layout.astro';
 import data from '../data/data.json';
 import '../../assets/scss/trust-quick-hub.scss';
-import CardCategory from '../components/products/cardCategory';
+import CardCategory from '../components/cards/cardCategory';
 import Navbar from '../components/navbar';
 import Footer from '../components/footer';
 ---
@@ -21,7 +21,7 @@ import Footer from '../components/footer';
             <CardCategory
               thumb_src = {category.thumb_src}
               title = {category.title}
-              link={category.link}
+              link = {category.link}
             />
           </div>
         )}

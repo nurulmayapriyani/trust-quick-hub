@@ -4,7 +4,7 @@ import data from '../data/data.json';
 import '../../assets/scss/trust-quick-hub.scss';
 import Navbar from '../components/navbar';
 import Footer from '../components/footer';
-import CardMarketplace from '../components/products/cardMarketplace';
+import CardMarketplace from '../components/cards/cardMarketplace';
 
 ---
 
@@ -31,7 +31,7 @@ import CardMarketplace from '../components/products/cardMarketplace';
             <CardMarketplace
               thumb_src = {marketplace.thumb_src}
               title = {marketplace.title}
-              link={marketplace.link}
+              link = {marketplace.link}
             />
           </div>
         )}
