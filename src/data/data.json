@@ -3,12 +3,12 @@
     {
       "thumb_src": "/images/shopee-logo.png",
       "title": "Shopee",
-      "link": "/trust-quick-hub/shopeeCategories"
+      "link": "/shopeeCategories"
     },
     {
       "thumb_src": "/images/logo-tokopedia.png",
       "title": "Tokopedia",
-      "link": "/trust-quick-hub/tokopediaCategories"
+      "link": "/tokopediaCategories"
     }
   ],
   "values": [

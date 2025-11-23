@@ -7,7 +7,7 @@ export default function Footer() {
             <div className="copyright text-center text-sm text-muted text-lg-start">
               2025 © 
               <a
-                href="/trust-quick-hub"
+                href="/"
                 className="text-dark ms-1"
                 target="_blank"
               >
