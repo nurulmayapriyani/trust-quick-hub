@@ -25,7 +25,7 @@ export default function AboutUs({ images }: Props) {
         <div className="row">
           <div className="col-12 col-lg-7 mx-auto text-center">
             <h2 className="mb-3">Trust Quick Hub</h2>
-            <p className="mb-5">Your all-in-one product hub — Find trusted products quickly</p>
+            <p className="mb-5" style={{color: '#977B6F'}}>Your all-in-one product hub — Find trusted products quickly</p>
           </div>
         </div>
 
@@ -33,7 +33,7 @@ export default function AboutUs({ images }: Props) {
           <div className="col-12 col-lg-6 pe-5">
             <div className="row">
               <h4 className="mb-3">About Us</h4>
-              <p className="mb-5">
+              <p className="mb-5" style={{color: '#977B6F'}}>
                 Welcome to Trust Quick Hub — your reliable shopping destination! We offer a wide variety of carefully selected products from different categories to help you shop smarter and faster. Every item featured here is chosen based on quality, reviews, and popularity, ensuring you always get trusted recommendations. Explore now and enjoy convenient shopping, anytime and anywhere!
               </p>
               <ValueDetails details={valueDetails} />

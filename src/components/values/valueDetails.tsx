@@ -25,7 +25,7 @@ export default function ValueDetails({ details }: Props) {
                 fill="#111827"
               />
             </svg>
-            <p>{value}</p>
+            <p style={{color: '#977B6F'}}>{value}</p>
           </div>
         </div>
       ))}

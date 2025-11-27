@@ -24,7 +24,7 @@ export default function CardMarketplace({
           <div className="full-background" style={{backgroundImage: `url(${thumb_src})`, backgroundSize: 'cover'}}></div>
           <div className={`card-body ${classBody}`}>
             <div className="d-block mt-10">
-              <h4 className="text-white font-weight-bolder">{title}</h4>
+              <h4 className="text-black font-weight-bolder">{title}</h4>
             </div>
           </div>
         </div>

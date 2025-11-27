@@ -7,7 +7,6 @@ interface Props {
   cta?: string;
 }
 
-
 export default function CardCategory({
   thumb_src,
   title,
