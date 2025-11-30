@@ -42,54 +42,9 @@
   ],
   "shopee_categories": [
     {
-      "thumb_src": "/images/bathroom.png",
-      "title": "Bathroom",
-      "link": "https://collshp.com/trustquickhub/category/2956353"
-    },
-    {
-      "thumb_src": "/images/pet.png",
-      "title": "Pet",
-      "link": "https://collshp.com/trustquickhub/category/2954956"
-    },
-    {
-      "thumb_src": "/images/bedroom.png",
-      "title": "Bedroom",
-      "link": "https://collshp.com/trustquickhub/category/2954913"
-    },
-    {
-      "thumb_src": "/images/makeup.png",
-      "title": "Makeup",
-      "link": "https://collshp.com/trustquickhub/category/2954905"
-    },
-    {
-      "thumb_src": "/images/furniture.png",
-      "title": "Furniture",
-      "link": "https://collshp.com/trustquickhub/category/2954849"
-    },
-    {
-      "thumb_src": "/images/haircare.png",
-      "title": "Haircare",
-      "link": "https://collshp.com/trustquickhub/category/2954608"
-    },
-    {
-      "thumb_src": "/images/worship_equipment.png",
-      "title": "Worship Equipment",
-       "link": "https://collshp.com/trustquickhub/category/2954598"
-    },
-    {
-      "thumb_src": "/images/perfume.png",
-      "title": "Perfume",
-       "link": "https://collshp.com/trustquickhub/category/2954470"
-    },
-    {
-      "thumb_src": "/images/skincare.png",
-      "title": "Skincare",
-       "link": "https://collshp.com/trustquickhub/category/2954433"
-    },
-    {
-      "thumb_src": "/images/hijab.png",
-      "title": "Hijab",
-       "link": "https://collshp.com/trustquickhub/category/2954401"
+      "thumb_src": "/images/men_trousers.png",
+      "title": "Men Trousers",
+       "link": "https://collshp.com/trustquickhub/category/2988140"
     },
     {
       "thumb_src": "/images/women_top.png",
@@ -97,14 +52,9 @@
        "link": "https://collshp.com/trustquickhub/category/2954293"
     },
     {
-      "thumb_src": "/images/unisex.png",
-      "title": "Unisex",
-       "link": "https://collshp.com/trustquickhub/category/2954281"
-    },
-    {
-      "thumb_src": "/images/dress.png",
-      "title": "Dress",
-       "link": "https://collshp.com/trustquickhub/category/2954239"
+      "thumb_src": "/images/women_trousers.png",
+      "title": "Women Trousers",
+      "link": "https://collshp.com/trustquickhub/category/2986869"
     },
     {
       "thumb_src": "/images/skirt.png",
@@ -112,14 +62,24 @@
        "link": "https://collshp.com/trustquickhub/category/2954167"
     },
     {
-      "thumb_src": "/images/stationery.png",
-      "title": "Stationery",
-       "link": "https://collshp.com/trustquickhub/category/2954158"
+      "thumb_src": "/images/dress.png",
+      "title": "Dress",
+       "link": "https://collshp.com/trustquickhub/category/2954239"
     },
     {
-      "thumb_src": "/images/men_trousers.png",
-      "title": "Men Trousers",
-       "link": "https://collshp.com/trustquickhub/category/2988140"
+      "thumb_src": "/images/unisex.png",
+      "title": "Unisex",
+       "link": "https://collshp.com/trustquickhub/category/2954281"
+    },
+    {
+      "thumb_src": "/images/hijab.png",
+      "title": "Hijab",
+       "link": "https://collshp.com/trustquickhub/category/2954401"
+    },
+    {
+      "thumb_src": "/images/worship_equipment.png",
+      "title": "Worship Equipment",
+       "link": "https://collshp.com/trustquickhub/category/2954598"
     },
     {
       "thumb_src": "/images/women_bag.png",
@@ -127,14 +87,54 @@
        "link": "https://collshp.com/trustquickhub/category/2987589"
     },
     {
+      "thumb_src": "/images/makeup.png",
+      "title": "Makeup",
+      "link": "https://collshp.com/trustquickhub/category/2954905"
+    },
+    {
+      "thumb_src": "/images/haircare.png",
+      "title": "Haircare",
+      "link": "https://collshp.com/trustquickhub/category/2954608"
+    },
+    {
+      "thumb_src": "/images/skincare.png",
+      "title": "Skincare",
+       "link": "https://collshp.com/trustquickhub/category/2954433"
+    },
+    {
+      "thumb_src": "/images/perfume.png",
+      "title": "Perfume",
+       "link": "https://collshp.com/trustquickhub/category/2954470"
+    },
+    {
       "thumb_src": "/images/kitchen.png",
       "title": "Kitchen",
       "link": "https://collshp.com/trustquickhub/category/2987102"
     },
     {
-      "thumb_src": "/images/women_trousers.png",
-      "title": "Women Trousers",
-      "link": "https://collshp.com/trustquickhub/category/2986869"
-    }
+      "thumb_src": "/images/bathroom.png",
+      "title": "Bathroom",
+      "link": "https://collshp.com/trustquickhub/category/2956353"
+    },
+    {
+      "thumb_src": "/images/bedroom.png",
+      "title": "Bedroom",
+      "link": "https://collshp.com/trustquickhub/category/2954913"
+    },
+    {
+      "thumb_src": "/images/furniture.png",
+      "title": "Furniture",
+      "link": "https://collshp.com/trustquickhub/category/2954849"
+    },
+    {
+      "thumb_src": "/images/stationery.png",
+      "title": "Stationery",
+       "link": "https://collshp.com/trustquickhub/category/2954158"
+    },
+    {
+      "thumb_src": "/images/pet.png",
+      "title": "Pet",
+      "link": "https://collshp.com/trustquickhub/category/2954956"
+    }    
   ]
 }
